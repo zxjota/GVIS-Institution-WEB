@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - AnerkexMolo</title>
+    <title>Privacy Policy - GVIS Institution</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * {
@@ -27,7 +27,7 @@
         
         /* Header Styles */
         header {
-            background: linear-gradient(135deg, #1a2a6c, #4a6fa5);
+            background: linear-gradient(135deg, #0d4a6c, #2a7fa5);
             color: white;
             padding: 2rem 0;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -47,12 +47,19 @@
         
         .logo i {
             font-size: 2.5rem;
-            color: #6c9bff;
+            color: #4db8ff;
         }
         
         .logo h1 {
             font-size: 2.2rem;
             font-weight: 700;
+        }
+        
+        .logo-subtitle {
+            font-size: 1rem;
+            opacity: 0.9;
+            font-weight: normal;
+            margin-top: 5px;
         }
         
         .contact-info {
@@ -65,7 +72,7 @@
         }
         
         .email-link {
-            color: #6c9bff;
+            color: #4db8ff;
             text-decoration: none;
             font-weight: 600;
         }
@@ -99,7 +106,7 @@
         }
         
         .sidebar h3 {
-            color: #1a2a6c;
+            color: #0d4a6c;
             margin-bottom: 20px;
             padding-bottom: 10px;
             border-bottom: 2px solid #eaeaea;
@@ -123,8 +130,8 @@
         }
         
         .sidebar a:hover, .sidebar a.active {
-            background-color: #f0f5ff;
-            color: #1a2a6c;
+            background-color: #f0f8ff;
+            color: #0d4a6c;
         }
         
         .policy-content {
@@ -142,9 +149,17 @@
         }
         
         .policy-intro h2 {
-            color: #1a2a6c;
+            color: #0d4a6c;
             margin-bottom: 15px;
             font-size: 2rem;
+        }
+        
+        .institution-description {
+            background-color: #f0f8ff;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #2a7fa5;
         }
         
         .last-updated {
@@ -158,7 +173,7 @@
         }
         
         .policy-section h3 {
-            color: #1a2a6c;
+            color: #0d4a6c;
             margin-bottom: 15px;
             font-size: 1.5rem;
             display: flex;
@@ -167,7 +182,7 @@
         }
         
         .policy-section h3 i {
-            color: #4a6fa5;
+            color: #2a7fa5;
         }
         
         .policy-section p {
@@ -188,14 +203,14 @@
         .highlight {
             background-color: #f8fbff;
             padding: 20px;
-            border-left: 4px solid #4a6fa5;
+            border-left: 4px solid #2a7fa5;
             margin: 20px 0;
             border-radius: 0 5px 5px 0;
         }
         
         /* Footer */
         footer {
-            background-color: #1a2a6c;
+            background-color: #0d4a6c;
             color: white;
             padding: 2.5rem 0;
             margin-top: 40px;
@@ -213,7 +228,7 @@
         }
         
         .footer-links a {
-            color: #b0c4ff;
+            color: #b0d4ff;
             text-decoration: none;
         }
         
@@ -223,7 +238,7 @@
         }
         
         .copyright {
-            color: #b0c4ff;
+            color: #b0d4ff;
             font-size: 0.9rem;
         }
         
@@ -259,11 +274,16 @@
                 gap: 20px;
                 text-align: center;
             }
+            
+            .footer-links {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
         }
         
         .print-button {
             display: inline-block;
-            background-color: #4a6fa5;
+            background-color: #2a7fa5;
             color: white;
             padding: 12px 25px;
             border-radius: 5px;
@@ -275,7 +295,18 @@
         }
         
         .print-button:hover {
-            background-color: #1a2a6c;
+            background-color: #0d4a6c;
+        }
+        
+        .institution-badge {
+            display: inline-block;
+            background-color: #0d4a6c;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-left: 10px;
         }
     </style>
 </head>
@@ -284,13 +315,16 @@
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-                    <i class="fas fa-user-shield"></i>
-                    <h1>AnerkexMolo</h1>
+                    <i class="fas fa-graduation-cap"></i>
+                    <div>
+                        <h1>GVIS Institution</h1>
+                        <p class="logo-subtitle">Global Vision International School</p>
+                    </div>
                 </div>
                 <div class="contact-info">
                     <p><strong>Privacy Policy</strong></p>
                     <p>Last Updated: <span id="current-date">June 1, 2024</span></p>
-                    <p>Contact: <a href="mailto:nayeemmiah24@gmail.com" class="email-link">nayeemmiah24@gmail.com</a></p>
+                    <p>Contact: <a href="mailto:privacy@gvis.edu" class="email-link">privacy@gvis.edu</a></p>
                 </div>
             </div>
         </div>
@@ -318,97 +352,110 @@
                 
                 <div class="policy-content">
                     <section class="policy-intro">
-                        <h2>Privacy Policy for AnerkexMolo</h2>
+                        <h2>Privacy Policy for GVIS Institution</h2>
                         <p class="last-updated">Last Updated: <span id="current-date2">June 1, 2024</span></p>
-                        <p>This Privacy Policy describes how AnerkexMolo ("we", "us", or "our") collects, uses, and shares your personal information when you use our application, services, and website (collectively, the "Services").</p>
-                        <p>We are committed to protecting your privacy and ensuring that your personal information is handled in a safe and responsible manner. Please read this Privacy Policy carefully to understand our practices regarding your personal information.</p>
+                        
+                        <div class="institution-description">
+                            <p>GVIS Institution (Global Vision International School) is committed to protecting the privacy and security of our students, parents, staff, and all members of our educational community. This Privacy Policy outlines how we collect, use, and safeguard personal information within our educational environment.</p>
+                        </div>
+                        
+                        <p>This Privacy Policy describes how GVIS Institution ("we", "us", or "our") collects, uses, and shares your personal information when you interact with our educational services, website, and applications (collectively, the "Services").</p>
+                        <p>We are committed to protecting your privacy and ensuring that your personal information is handled in a safe, responsible, and ethical manner, in compliance with applicable educational data privacy laws. Please read this Privacy Policy carefully to understand our practices regarding your personal information.</p>
                         
                         <button class="print-button" onclick="window.print()">
-                                <i class="fas fa-print"></i> Print This Policy
+                            <i class="fas fa-print"></i> Print This Policy
                         </button>
                     </section>
                     
                     <section id="introduction" class="policy-section">
                         <h3><i class="fas fa-info-circle"></i> Introduction</h3>
-                        <p>This Privacy Policy applies to all users of AnerkexMolo. By accessing or using our Services, you agree to the collection, use, and sharing of your personal information as described in this Privacy Policy. If you do not agree with our policies and practices, do not use our Services.</p>
-                        <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date at the top of this policy.</p>
+                        <p>This Privacy Policy applies to all students, parents, staff, and visitors of GVIS Institution. By accessing or using our educational services, you agree to the collection, use, and sharing of your personal information as described in this Privacy Policy, in accordance with applicable laws including FERPA, COPPA, and GDPR where applicable.</p>
+                        <p>We may update this Privacy Policy from time to time to reflect changes in our practices, technology, legal requirements, or educational services. We will notify you of any material changes by posting the updated Privacy Policy on this page and updating the "Last Updated" date.</p>
                     </section>
                     
                     <section id="information-collection" class="policy-section">
                         <h3><i class="fas fa-database"></i> Information We Collect</h3>
-                        <p>We collect several types of information from and about users of our Services:</p>
+                        <p>As an educational institution, we collect several types of information necessary for educational purposes, student safety, and institutional operations:</p>
                         <ul>
-                            <li><strong>Personal Information:</strong> Information that identifies you, such as your name, email address, and contact information when you register for an account or contact us.</li>
-                            <li><strong>Usage Data:</strong> Information about how you interact with our Services, including your IP address, device information, browser type, and usage patterns.</li>
-                            <li><strong>Content Information:</strong> Information you provide when using our Services, such as messages, files, or other content you create or upload.</li>
-                            <li><strong>Technical Information:</strong> Information collected automatically through cookies and similar tracking technologies.</li>
+                            <li><strong>Student Information:</strong> Academic records, attendance data, assessment results, and educational progress information.</li>
+                            <li><strong>Personal Information:</strong> Contact details, identification information, and demographic data for students, parents, and staff.</li>
+                            <li><strong>Health and Safety Information:</strong> Medical records, emergency contact information, and other data necessary for student welfare.</li>
+                            <li><strong>Usage Data:</strong> Information about how you interact with our educational platforms, including login data, device information, and online activity.</li>
+                            <li><strong>Financial Information:</strong> Payment information for tuition and other school-related expenses (processed securely through trusted third-party providers).</li>
                         </ul>
                         <div class="highlight">
-                            <p><strong>Note:</strong> We do not sell your personal information to third parties. We only share your information as described in this Privacy Policy.</p>
+                            <p><strong>Educational Data Protection:</strong> We adhere to strict educational data privacy standards and do not sell student or family information. Data is only shared as necessary for educational purposes, legal compliance, or with explicit consent.</p>
                         </div>
                     </section>
                     
                     <section id="information-use" class="policy-section">
                         <h3><i class="fas fa-cogs"></i> How We Use Information</h3>
-                        <p>We use the information we collect for various purposes, including:</p>
+                        <p>We use the information we collect for legitimate educational and institutional purposes, including:</p>
                         <ul>
-                            <li>To provide, maintain, and improve our Services</li>
-                            <li>To communicate with you about your account, updates, and promotional offers</li>
-                            <li>To personalize your experience and provide content and features tailored to your interests</li>
-                            <li>To monitor and analyze usage patterns and trends to improve our Services</li>
-                            <li>To detect, prevent, and address technical issues, fraud, or security breaches</li>
-                            <li>To comply with legal obligations and enforce our terms and conditions</li>
+                            <li>Providing and improving educational services and instruction</li>
+                            <li>Maintaining student records and academic progress tracking</li>
+                            <li>Ensuring student health, safety, and well-being on campus</li>
+                            <li>Communicating with parents and guardians about student progress and school activities</li>
+                            <li>Processing tuition payments and managing institutional finances</li>
+                            <li>Complying with legal and regulatory requirements for educational institutions</li>
+                            <li>Conducting research and analysis to improve educational outcomes (anonymized where possible)</li>
                         </ul>
                     </section>
                     
                     <section id="information-sharing" class="policy-section">
                         <h3><i class="fas fa-share-alt"></i> Information Sharing</h3>
-                        <p>We may share your personal information in the following circumstances:</p>
+                        <p>We may share personal information in the following circumstances, always with appropriate safeguards:</p>
                         <ul>
-                            <li><strong>Service Providers:</strong> With third-party vendors and service providers who perform services on our behalf, such as hosting, data analysis, and customer service.</li>
-                            <li><strong>Legal Requirements:</strong> When required by law, regulation, legal process, or governmental request.</li>
-                            <li><strong>Business Transfers:</strong> In connection with a merger, acquisition, or sale of assets, in which case your information may be transferred as part of that transaction.</li>
-                            <li><strong>With Your Consent:</strong> When you have provided us with your consent to share your information.</li>
+                            <li><strong>Educational Partners:</strong> With trusted educational service providers who support our academic programs, under strict data protection agreements.</li>
+                            <li><strong>Legal Compliance:</strong> When required by law, regulation, or legal process, particularly relating to educational records and child welfare.</li>
+                            <li><strong>Health and Safety:</strong> With medical professionals or emergency services when necessary for student welfare.</li>
+                            <li><strong>Educational Authorities:</strong> With government educational bodies as required for accreditation, reporting, or funding purposes.</li>
+                            <li><strong>With Consent:</strong> When you have provided explicit consent for specific sharing arrangements.</li>
                         </ul>
                     </section>
                     
                     <section id="data-security" class="policy-section">
                         <h3><i class="fas fa-shield-alt"></i> Data Security</h3>
-                        <p>We implement appropriate technical and organizational security measures designed to protect your personal information from unauthorized access, use, alteration, or disclosure. These measures include encryption, access controls, and secure data storage.</p>
-                        <p>However, no method of transmission over the Internet or electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your personal information, we cannot guarantee its absolute security.</p>
+                        <p>We implement comprehensive technical, administrative, and physical security measures designed to protect educational records and personal information. These measures include encryption, access controls, regular security audits, and staff training on data protection.</p>
+                        <p>As an educational institution, we adhere to industry-standard security frameworks specifically designed for protecting sensitive student data. All staff members with access to student information undergo thorough background checks and privacy training.</p>
                     </section>
                     
                     <section id="user-rights" class="policy-section">
                         <h3><i class="fas fa-user-check"></i> Your Rights</h3>
-                        <p>Depending on your jurisdiction, you may have certain rights regarding your personal information, including:</p>
+                        <p>Depending on your jurisdiction and role (student, parent, or staff), you may have certain rights regarding your personal information, including:</p>
                         <ul>
-                            <li>The right to access, update, or delete your personal information</li>
-                            <li>The right to correct inaccurate or incomplete information</li>
-                            <li>The right to object to or restrict the processing of your personal information</li>
-                            <li>The right to data portability</li>
-                            <li>The right to withdraw consent at any time</li>
+                            <li>The right to access and review educational records (as provided under FERPA and similar regulations)</li>
+                            <li>The right to request correction of inaccurate or incomplete information</li>
+                            <li>The right to limit disclosure of directory information</li>
+                            <li>The right to data portability for information you've provided</li>
+                            <li>The right to withdraw consent for non-essential processing</li>
                         </ul>
-                        <p>To exercise these rights, please contact us at <a href="mailto:nayeemmiah24@gmail.com">nayeemmiah24@gmail.com</a>. We will respond to your request in accordance with applicable laws.</p>
+                        <p>To exercise these rights, please contact our Data Protection Officer at <a href="mailto:dpo@gvis.edu">dpo@gvis.edu</a>. We will respond to your request in accordance with applicable educational privacy laws.</p>
                     </section>
                     
                     <section id="children-privacy" class="policy-section">
                         <h3><i class="fas fa-child"></i> Children's Privacy</h3>
-                        <p>Our Services are not intended for individuals under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe that your child has provided us with personal information, please contact us immediately.</p>
-                        <p>If we learn that we have collected personal information from a child under 13, we will take steps to delete that information as soon as possible.</p>
+                        <p>As an educational institution serving minors, we are particularly committed to protecting children's privacy. We comply with the Children's Online Privacy Protection Act (COPPA) and similar regulations worldwide.</p>
+                        <p>For students under 13, we collect and process personal information only with parental consent or as permitted by educational laws. Parents have the right to review their child's information, request deletion, and refuse further collection or use of their child's information.</p>
+                        <div class="highlight">
+                            <p><strong>Parental Rights:</strong> Parents and guardians may review their child's educational records, consent to specific data uses, or withdraw consent by contacting our Student Records Office at <a href="mailto:records@gvis.edu">records@gvis.edu</a>.</p>
+                        </div>
                     </section>
                     
                     <section id="policy-changes" class="policy-section">
                         <h3><i class="fas fa-exchange-alt"></i> Changes to This Privacy Policy</h3>
-                        <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date at the top of this policy.</p>
-                        <p>We encourage you to review this Privacy Policy periodically for any changes. Your continued use of our Services after we post any modifications to the Privacy Policy will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy.</p>
+                        <p>We may update our Privacy Policy to reflect changes in our educational practices, technology, or legal requirements. We will notify the school community of significant changes through our usual communication channels (email, parent portal, and announcements).</p>
+                        <p>We encourage you to review this Privacy Policy periodically. Your continued engagement with GVIS Institution after we post any modifications constitutes your acknowledgment of the changes and your agreement to abide by the updated policy.</p>
                     </section>
                     
                     <section id="contact-us" class="policy-section">
                         <h3><i class="fas fa-envelope"></i> Contact Us</h3>
-                        <p>If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at:</p>
+                        <p>If you have questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact our Data Protection Team:</p>
                         <div class="highlight">
-                            <p><strong>Email:</strong> <a href="mailto:nayeemmiah24@gmail.com">nayeemmiah24@gmail.com</a></p>
-                            <p>We will make every effort to respond to your inquiry in a timely manner.</p>
+                            <p><strong>Data Protection Officer:</strong> <a href="mailto:dpo@gvis.edu">dpo@gvis.edu</a></p>
+                            <p><strong>Student Records Office:</strong> <a href="mailto:records@gvis.edu">records@gvis.edu</a></p>
+                            <p><strong>Mailing Address:</strong> GVIS Institution, 123 Education Way, Academic City, AC 10101</p>
+                            <p>We are committed to addressing privacy concerns promptly and thoroughly in accordance with our educational mission.</p>
                         </div>
                     </section>
                 </div>
@@ -420,13 +467,14 @@
         <div class="container">
             <div class="footer-content">
                 <div class="copyright">
-                    <p>&copy; 2024 AnerkexMolo. All rights reserved.</p>
+                    <p>&copy; 2024 GVIS Institution. All rights reserved.</p>
+                    <p>Global Vision International School - Committed to Educational Excellence and Data Protection</p>
                 </div>
                 <div class="footer-links">
                     <a href="#">Terms of Service</a>
                     <a href="#">Privacy Policy</a>
                     <a href="#">Cookie Policy</a>
-                    <a href="mailto:nayeemmiah24@gmail.com">Contact Us</a>
+                    <a href="mailto:privacy@gvis.edu">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -489,6 +537,34 @@
                     link.classList.add('active');
                 }
             });
+        });
+        
+        // Print functionality enhancement
+        document.querySelector('.print-button').addEventListener('click', function() {
+            // Add a print-specific style
+            const printStyle = document.createElement('style');
+            printStyle.innerHTML = `
+                @media print {
+                    header, footer, .sidebar, .print-button {
+                        display: none;
+                    }
+                    .policy-content {
+                        box-shadow: none;
+                        padding: 0;
+                    }
+                    body {
+                        background-color: white;
+                    }
+                }
+            `;
+            document.head.appendChild(printStyle);
+            
+            window.print();
+            
+            // Remove the print style after printing
+            setTimeout(() => {
+                document.head.removeChild(printStyle);
+            }, 100);
         });
     </script>
 </body>
